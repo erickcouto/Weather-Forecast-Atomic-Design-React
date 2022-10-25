@@ -1,6 +1,6 @@
-# Weather Forecast - React JS
+# Weather Forecast - React JS Atomic Design
 
-This project was created using 
+This project was created using...
 
 - Create React App
 - Redux Toolkit
