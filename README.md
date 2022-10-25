@@ -2,11 +2,11 @@
 
 This project was created using 
 
-Create React App
-Redux Toolkit
-Styled Components
-React Router Dom
-Jest
+- Create React App
+- Redux Toolkit
+- Styled Components
+- React Router Dom
+- Jest
 
 ## Available Scripts
 
