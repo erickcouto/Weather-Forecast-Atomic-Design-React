@@ -1,13 +1,13 @@
 import React from "react";
 
-import { Container } from "./styles";
+import { Button } from "./styles";
 
 const CustomButton = (props) => {
   const { children, onClick } = props;
   return (
-    <Container onClick={onClick} {...props}>
+    <Button onClick={onClick} {...props}>
       {children}
-    </Container>
+    </Button>
   );
 };
 

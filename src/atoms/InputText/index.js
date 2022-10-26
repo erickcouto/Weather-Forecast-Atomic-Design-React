@@ -1,7 +1,9 @@
 import React from "react";
 
+import { Input } from "./styles";
+
 const InputText = (props) => {
-  return <input type="text" {...props} />;
+  return <Input type="text" {...props} />;
 };
 
 export default InputText;
