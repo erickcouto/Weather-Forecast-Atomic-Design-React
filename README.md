@@ -6,7 +6,6 @@ This project was created using...
 - Redux Toolkit
 - Styled Components
 - React Router Dom
-- Jest
 
 ## Available Scripts
 
@@ -17,8 +16,3 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Tests
-
-### `yarn jest`
-
-Some tests are available to check few components.
