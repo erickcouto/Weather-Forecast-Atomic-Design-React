@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import CustomButton from "../../atoms/CustomButton";
 import Label from "../../atoms/Label";
-import { setSelectedRegion } from "../../store/regionsSlice";
+import { setSelectedRegion } from "../../store/Region/slice";
 
 import { Container } from "./styles";
 
