@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import regionsReducer from "./regionsSlice";
-import forecastsReducer from "./forecastsSlice";
+import regionsReducer from "./Region/slice";
+import forecastsReducer from "./Forecast/slice";
 
 export const store = configureStore({
   reducer: {

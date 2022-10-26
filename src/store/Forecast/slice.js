@@ -3,20 +3,7 @@ import { getForecasts } from "./service";
 const maxDays = 5;
 const initialState = {
   error: false,
-  forecasts: [
-    {
-      precipitaProb: "",
-      tMin: "",
-      tMax: "",
-      predWindDir: "",
-      idWeatherType: 0,
-      classWindSpeed: 1,
-      longitude: "",
-      forecastDate: "",
-      classPrecInt: 0,
-      latitude: "",
-    },
-  ],
+  forecasts: [],
 };
 
 export const forecastSlice = createSlice({
@@ -32,7 +19,7 @@ export const forecastSlice = createSlice({
           error: false,
         };
       })
-      .addCase(getForecasts.rejected, (state, action) => {
+      .addCase(getForecasts.rejected, (state) => {
         return {
           ...state,
           error: true,

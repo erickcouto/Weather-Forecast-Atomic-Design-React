@@ -4,7 +4,7 @@ import InputText from "../../atoms/InputText";
 import Label from "../../atoms/Label";
 import { labelType } from "../../atoms/Label/model";
 import RegionItem from "../../molecules/RegionItem";
-import { getRegions } from "../../store/service";
+import { getRegions } from "../../store/Region/service";
 import { Row } from "../../styles/Global";
 
 import { Container, ContainerRegions } from "./styles";

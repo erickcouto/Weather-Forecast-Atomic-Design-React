@@ -3,18 +3,7 @@ import { getRegions } from "./service";
 
 const initialState = {
   error: false,
-  regions: [
-    {
-      idRegiao: 0,
-      idAreaAviso: "teste",
-      globalIdLocal: 0,
-      idConcelho: 0,
-      latitude: "",
-      idDistrito: 0,
-      local: "",
-      longitude: "",
-    },
-  ],
+  regions: [],
   selectedRegion: null,
 };
 
@@ -35,7 +24,7 @@ export const regionsSlice = createSlice({
           error: false,
         };
       })
-      .addCase(getRegions.rejected, (state, action) => {
+      .addCase(getRegions.rejected, (state) => {
         return {
           ...state,
           error: true,

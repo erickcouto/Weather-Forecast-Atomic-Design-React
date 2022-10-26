@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { labelType } from "../../atoms/Label/model";
 import { Title } from "../../atoms/Label/styles";
 import ForecastItem from "../../molecules/ForecastItem";
-import { getForecasts } from "../../store/service";
+import { getForecasts } from "../../store/Forecast/service";
 import { Container, ForecastsContainer } from "./styles";
 
 function Forecast() {
