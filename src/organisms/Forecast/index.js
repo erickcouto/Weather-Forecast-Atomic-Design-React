@@ -11,7 +11,6 @@ function Forecast() {
   const { selectedRegion } = useSelector((state) => state.regions);
 
   const dispatch = useDispatch();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (selectedRegion) {
       dispatch(getForecasts(selectedRegion.globalIdLocal));
