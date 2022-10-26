@@ -6,7 +6,6 @@ This project was created using...
 - Redux Toolkit
 - Styled Components
 - React Router Dom
-- Jest
 
 ## Available Scripts
 
